@@ -41,33 +41,84 @@ img {
 }
 
 .flex-hat {
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .flex-features {
     display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+.features-name {
+    padding-bottom: 10px;
 }
 
 .flex-img {
     display: flex;
+    gap: 30px;
+    padding: 0;
 }
 
 .flex-tem {
     display: flex;
+    padding: 0;
+    gap: 30px;
 }
 
 .flex-filter {
     display: flex;
+    padding: 0;
+    justify-content: center;    
+    gap: 8px;
+    margin-bottom: 50px;
 }
 
 .flex-portfolio {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+}
+
+.flex-ramka {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-top: none;
+    border-left: 24px;
+    border-right: 24px;
+    border-bottom: 20px;
+}
+
+.flex-bloks {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.flex-team {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.flex-logo {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.flex-map {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+    
 }
 
 .container {
@@ -129,6 +180,7 @@ ul {
     letter-spacing: 0.03em;
     color: var(--brand-color);
     border: none;
+    padding: 6px 22px;
 }
 
 .link-but:hover {
@@ -146,6 +198,8 @@ ul {
     color: #FFFFFF;
     background-color: #2196F3;
     border: none;
+    padding: 10px 32px;
+    radius: 4px;
 }
 
 .link-button:hover {
@@ -199,6 +253,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    
 }
 
 .bloks-h {
@@ -207,6 +262,10 @@ ul {
     line-height: 1.36;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    width: 696px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .bloks {
@@ -215,6 +274,7 @@ ul {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--brand-color);
+
 }
 
 .team {
@@ -223,6 +283,7 @@ ul {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--brand-color);
+    padding: 10px;
 }
 
 .team-p {
