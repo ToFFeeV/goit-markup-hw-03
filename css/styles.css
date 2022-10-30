@@ -52,6 +52,10 @@ ul {
 
 /* HEADER */
 
+.border-hed {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .container {
     width: 1200px;
     padding-right: 15px;
@@ -65,8 +69,6 @@ ul {
 
 .flex-hed {
     display: flex;
-
-    border-bottom: 1px solid #ECECEC;
 }
 
 .logot {
@@ -143,10 +145,6 @@ ul {
 
 /* FOOTER */
 
-.back {
-    background-color: #2F303A;
-}
-
 .section-f {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -164,7 +162,10 @@ ul {
 .flex-map {
     display: flex;
     flex-direction: column;
-    gap: 9px;
+}
+
+.flex-map > a:not(:last-child) {
+    margin-bottom: 9px ;
 }
 
 .map {
@@ -183,15 +184,22 @@ ul {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: rgba(255, 255, 255, 0.6);;
 }
 
 /* MAIN */
 
+.back {
+    background-color: #2F303A;
+}
+
+.section-had {
+    padding: 200px 0;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .bloks-h {
@@ -222,6 +230,10 @@ ul {
 .flex-hat {
     display: block;
     margin: 0 auto;
+}
+
+.section-features {
+    padding-top: 94px;
 }
 
 .flex-features {
@@ -346,7 +358,7 @@ ul {
     padding: 20px 24px;
     
     
-    border: 1px dashed palevioletred;
+    border: 1px solid #EEEEEE;
     border-top: none;
 }
 
